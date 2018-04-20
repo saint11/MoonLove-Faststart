@@ -3,6 +3,7 @@
 
 -- Game properties
 	esc_closes: false
+	show_scene_name: true
 
 -- Text
 	game_name: "Game Tittle"

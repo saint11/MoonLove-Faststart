@@ -4,8 +4,9 @@ export class DefeatScene extends Scene
 		@fade_time = @fade_time_max
 
 	draw: ()=>
-		lg.setFont(data.fonts.min4)
-		lg.print "Defeat scene",10,10
+		if (data.global.show_scene_name)
+			lg.setFont(data.fonts.min4)
+			lg.print "Defeat scene",10,10
 
 		lg.setColor 0,0,0, @fade_time/@fade_time_max
 		lg.rectangle "fill", 0, 0, w_width, w_height

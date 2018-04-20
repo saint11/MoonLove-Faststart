@@ -9,14 +9,21 @@ love.load=()->
 	export data = {}
 	data.global = require "/data/global"
 
-	require "scenes/scene"
 	require "util"
+
+	-- Engine Systems
+	require "systems/scene"
+	require "systems/entity"
+
 	-- Game Scenes
 	require "scenes/mainMenu"
 	require "scenes/gameScene"
 	require "scenes/pause"
 	require "scenes/victoryScene"
 	require "scenes/defeatScene"
+
+	-- Game objects
+	require "objects/player"
 
 	initLoveShortcuts!
 	initFonts!

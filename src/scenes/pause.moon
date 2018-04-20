@@ -7,14 +7,14 @@ export class PauseScene extends Scene
 	draw: ()=>
 		lg.setFont(data.fonts.vcr)
 
-		@real_scene.draw()
+		@real_scene\draw()
 
 		lg.setColor 0,0,0, (1 - @fade_time/@fade_time_max)*.5
 		lg.rectangle "fill", 0, 0, w_width, w_height
 
 		lg.setColor white
 		lg.setFont(data.fonts.vcr)
-		lg.printf getText("paused"),0, 50, w_width, "center", 0
+		lg.printf getText("paused"),0, w_height/2, w_width, "center", 0
 
 	update: (dt)=>
 		@fade_time = math.max(@fade_time - dt, 0)
