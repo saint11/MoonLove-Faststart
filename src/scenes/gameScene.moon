@@ -4,7 +4,7 @@ export class GameScene extends Scene
 		@entities_to_add = {}
 		@entities_to_remove = {}
 
-		@add(Player(80,20))
+		@add(Player(w_width/2 - 8, w_height/2 - 8))
 
 	draw: ()=>
 		if (data.global.show_scene_name)
@@ -42,6 +42,7 @@ export class GameScene extends Scene
 
 	add: (e)=>
 		lume.push(@entities_to_add, e)
+		e.scene = self
 
 	remove: (e)=>
 		lume.push(@entities_to_remove, e)

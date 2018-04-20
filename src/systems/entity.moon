@@ -6,3 +6,6 @@ export class Entity
     update: (dt)=>
 
 	draw: ()=>
+
+	removeSelf:()=>
+		@scene.remove(self)

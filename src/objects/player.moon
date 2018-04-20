@@ -1,7 +1,7 @@
 export class Player extends Entity 
 	new: (x, y)=>
 		super(x, y)
-		@speed = 20
+		@speed = 40
 
     update: (dt)=>
 		if lk.isDown("left")
