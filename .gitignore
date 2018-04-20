@@ -1,3 +1,4 @@
-lua/*
-!lua/lib/
+game/*
+!game/assets/
+!game/lib/
 bin/*

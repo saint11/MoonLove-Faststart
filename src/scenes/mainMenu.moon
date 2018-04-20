@@ -1,26 +1,37 @@
 export class MainMenuScene extends Scene
 	new: ()=>
-		@options = {
-			{ getText("new_game"), 140 },
-			{ getText("credits"), 180 },
-			{ getText("exit"), 220 }
+		@createOptions {
+			{
+				text:getText("new_game")
+				y:100
+				action:=>
+					changeSceneTo GameScene()
+			},
+			{
+				text:getText("exit")
+				y:114
+				action:=>
+					love.event.quit!
+			},
 		}
 
-		@current = 1
-
 	draw: ()=>
-		love.graphics.printf getText("title"),0, 40, lg.getWidth!, "center"
+		lg.setColor white
+		lg.setFont(data.fonts.extrude)
+
+		lg.printf getText("title"),0, 50, w_width/2, "center", 0, 2, 2
 		
-		for i,v in ipairs(@options)
-			y = v[2]
+		lg.setFont(data.fonts.battlenet)
+		for i,option in ipairs(@options)
 			if i==@current
 				lg.setColor(1,1,1,0.1)
-				lg.rectangle("fill", 0, y-2, lg.getWidth!, 20)
+				lg.rectangle("fill", 0, option.y + 2, w_width, 12)
 			
-			lg.setColor(1,1,1,1)
-			lg.printf v[1],0, y, lg.getWidth!, "center"
+			lg.setColor white
+			lg.printf option.text,0, option.y, w_width, "center"
 		
-		love.graphics.printf getText("footnote"),0, lg.getHeight! - 40, lg.getWidth!, "center"
+		lg.setFont(data.fonts.min5)
+		lg.printf getText("footnote"),0, w_height - 20, w_width, "center"
 
 	update: (dt)=>
 		-- Nothing yet
@@ -32,9 +43,10 @@ export class MainMenuScene extends Scene
 		if (key=="up")
 			@current = math.max(@current - 1, 1)
 
-
 		if (key=="return" or key=="space")
-			if @current==1
-				changeSceneTo GameScene()
-			elseif @current==3
-				love.event.quit!
+			if @options[@current].action != nil
+				@options[@current].action!
+
+	createOptions:(options)=>
+		@options = options
+		@current = 1

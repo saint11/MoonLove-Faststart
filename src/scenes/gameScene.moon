@@ -3,7 +3,8 @@ export class GameScene extends Scene
 		--do something
 
 	draw: ()=>
-		love.graphics.print "Game scene",20,20
+		lg.setFont(data.fonts.min4)
+		lg.print "Game scene",10,10
 
 	update: (dt)=>
 		if lk.isDown("v")

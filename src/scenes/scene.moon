@@ -3,11 +3,11 @@ export class Scene
 		--do something
 
 	draw: ()=>
-		love.graphics.print "EMPTY SCENE",300,300
+		lg.setFont(data.fonts.min4)
+		lg.print "EMPTY SCENE",10,10
 
 	update: (dt)=>
 		--do something
 
 	keypressed: (key, scan, isrepeat)=>
 		--do something
-		

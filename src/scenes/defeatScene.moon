@@ -2,7 +2,8 @@ export class DefeatScene extends Scene
 	new: ()=>
 		
 	draw: ()=>
-		love.graphics.print "Defeat scene",20,20
+		lg.setFont(data.fonts.min4)
+		lg.print "Defeat scene",10,10
 
 	update: (dt)=>
 		if lk.isDown("space")
