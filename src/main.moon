@@ -4,7 +4,6 @@ io.stdout\setvbuf("no")
 love.load=()=>
 	-- external libs
 	export lume = require "lib/lume"
-	print lume.format("{b} hi {a}", {a: "mark", b: "Oh"})
 
 	-- Game data
 	export data = {}
@@ -29,6 +28,10 @@ love.update=(dt)=>
 	currentScene\update(dt)
 	if lk.isDown("escape")
 		love.event.quit!
+
+
+love.keypressed=(key, scan, isrepeat)=>
+	currentScene\keypressed(key,scan,isrepeat)
 
 export changeSceneTo=(newScene)->
 	print "Changing scene to " .. (newScene.__name or "null")
