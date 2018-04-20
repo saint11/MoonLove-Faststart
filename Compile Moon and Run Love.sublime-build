@@ -1,4 +1,0 @@
-{
-    "working_dir" : "$folder",
-    "shell_cmd": "moonc -t lua/. src/. && love lua/."
-}

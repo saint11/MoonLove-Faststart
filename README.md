@@ -1,8 +1,9 @@
 # MoonLove-Faststart
 Some templates and basic engine structure using Lua, Love and Moonscript. Intended to be used specially in game jams such as Ludum Dare and for rapid game prototyping.
 
-## Sublime Build Instalation
-Grab "Compile Moon and Run Love.sublime-build" and paste it Sublime build systems folder (```%AppData%\Sublime Text 3\Packages\User\``` if you are wondering where it is). This will allow you to compile and run your game very fast.
+## Getting Started
+Install both [Love](https://love2d.org/) and [Moonscript](https://moonscript.org/)
+Just open the ```Faststart.sublime-project``` file and select the "Compile my Project" build system (```Tools > Build System > Compile My Project```) and press Control + B to run your project!
 
 ## Here's how the folders are supposed to work:
 * **bin:** This is where the .exe or similar will be placed when you pack your game for distribution.

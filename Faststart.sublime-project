@@ -1,0 +1,22 @@
+{
+	"build_systems": [
+		{
+			"shell_cmd": "moonc -t lua/. src/. && love lua/.",
+			"file_regex": "^\\s*(.+):(\\d+): (?:lines \\d+-\\d+|character(?:s \\d+-| )(\\d+)) : (.*)$",
+			"name": "Compile my project",
+			"working_dir": "${project_path:${folder:${file_path}}}"
+		}
+	],
+	"folders": [
+		{
+			"name": "My Project Name",
+			"path": ".",
+			"folder_exclude_patterns": [
+				".git"
+			],
+			"file_exclude_patterns": [
+				"*.sublime-*"
+			]
+		}
+	]
+}
