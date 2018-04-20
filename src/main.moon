@@ -1,7 +1,7 @@
 -- You need this for live console update in Sublime Text
 io.stdout\setvbuf("no")
 
-love.load=()=>
+love.load=()->
 	-- external libs
 	export lume = require "lib/lume"
 
@@ -14,6 +14,7 @@ love.load=()=>
 	-- Game Scenes
 	require "scenes/mainMenu"
 	require "scenes/gameScene"
+	require "scenes/pause"
 	require "scenes/victoryScene"
 	require "scenes/defeatScene"
 
@@ -38,14 +39,14 @@ love.load=()=>
 
 	changeSceneTo MainMenuScene()
 
-love.draw=()=>
+love.draw=()->
 	pre_draw!
 	currentScene\draw()
 	post_draw!
 
-love.update=(dt)=>
+love.update=(dt)->
 	currentScene\update(dt)
-	if lk.isDown("escape")
+	if lk.isDown("escape") and data.global.esc_closes
 		love.event.quit!
 
 
@@ -53,9 +54,9 @@ love.keypressed=(key, scan, isrepeat)=>
 	currentScene\keypressed(key,scan,isrepeat)
 
 -- Engine functions:
-
+ 
 export changeSceneTo=(newScene)->
-	print "Changing scene to " .. (newScene.__name or "null")
+	print "Changing scene to " .. (newScene.__class.__name or "null")
 	export currentScene = newScene
 
 export initLoveShortcuts=->

@@ -7,7 +7,13 @@ export class GameScene extends Scene
 		lg.print "Game scene",10,10
 
 	update: (dt)=>
-		if lk.isDown("v")
+
+	keypressed: (key, scan, isrepeat)=>
+		-- Pause
+		if key=="p"
+			changeSceneTo PauseScene(self)
+
+		if key=="v"
 			changeSceneTo VictoryScene()
-		if lk.isDown("d")
+		if key=="d"
 			changeSceneTo DefeatScene()
