@@ -1,0 +1,968 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ke",
+				"love.keyboard.isDown"
+			],
+			[
+				"for",
+				"for\tfor i=1,10"
+			],
+			[
+				"time",
+				"timeAndAngle"
+			],
+			[
+				"proje",
+				"projectileTimesAndAngles"
+			],
+			[
+				"fl",
+				"float3\tcontext"
+			],
+			[
+				"dea",
+				"delay"
+			],
+			[
+				"ch",
+				"charging"
+			],
+			[
+				"cha",
+				"charginTimer"
+			],
+			[
+				"power",
+				"powerMultiplier"
+			],
+			[
+				"v",
+				"Vector3"
+			],
+			[
+				"targ",
+				"targetRoom"
+			],
+			[
+				"in",
+				"interpolationFactor"
+			],
+			[
+				"floa",
+				"float4\tcontext"
+			],
+			[
+				"icew",
+				"iceWaitLoop"
+			],
+			[
+				"Aim",
+				"Anim"
+			],
+			[
+				"fire",
+				"fireball"
+			],
+			[
+				"red",
+				"ready_to_enter"
+			],
+			[
+				"Star",
+				"StartCoroutine"
+			],
+			[
+				"mission",
+				"mission_update"
+			],
+			[
+				"doc",
+				"docked"
+			],
+			[
+				"fun",
+				"function\tfunction"
+			],
+			[
+				"func",
+				"function\tfunction"
+			],
+			[
+				"Idle",
+				"idleB"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"bade",
+				"badelineBoss"
+			],
+			[
+				"lo",
+				"love"
+			],
+			[
+				"pl",
+				"playery"
+			],
+			[
+				"id",
+				"idle"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"run",
+				"runSlow"
+			],
+			[
+				"idl",
+				"idle_carry"
+			],
+			[
+				"sp",
+				"speedy"
+			],
+			[
+				"scro",
+				"scrolly"
+			],
+			[
+				"class",
+				"class\tclass name extends..."
+			],
+			[
+				"actors",
+				"actors_to_add"
+			],
+			[
+				"goto",
+				"goto"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.moon",
+			"settings":
+			{
+				"buffer_size": 641,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scenes/mainMenu.moon",
+			"settings":
+			{
+				"buffer_size": 181,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scenes/gameScene.moon",
+			"settings":
+			{
+				"buffer_size": 238,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scenes/defeatScene.moon",
+			"settings":
+			{
+				"buffer_size": 181,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scenes/victoryScene.moon",
+			"settings":
+			{
+				"buffer_size": 183,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scenes/scene.moon",
+			"settings":
+			{
+				"buffer_size": 120,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/conf.moon",
+			"settings":
+			{
+				"buffer_size": 903,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "love.conf=(t)=>"
+			}
+		},
+		{
+			"file": "/C/Users/saint/AppData/Roaming/Sublime Text 3/Packages/User/Compile Moon and Run Love.sublime-build",
+			"settings":
+			{
+				"buffer_size": 107,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Moonscripty/Moonscript.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					""
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"moonc: show output"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"love: run project"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"love: run file"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"moonc: compile project"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"moonc: run lint on file"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"moonc: run lint on project"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Moonscripty/Moonscript.sublime-build",
+				"love: run project"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "love: run project",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"2+2",
+			"print(\"hey\")",
+			"print \"hey\"",
+			"moon"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/lua"
+	],
+	"file_history":
+	[
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/.gitignore",
+		"/D/Dropbox/Jobs/LudumDare/RebuildResist/conf.lua",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/lib/lume.lua",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/src/scenes/mainMenu.moon",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/src/scene.moon",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/run.bat",
+		"/C/Users/saint/AppData/Roaming/Sublime Text 3/Packages/User/Run Bat File.sublime-build",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/lua/main.lua",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/main.moon",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/conf.moon",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/main.lua",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/conf.lua",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/game.moon",
+		"/D/Dropbox/Jobs/LuaLike/game.moon",
+		"/D/Dropbox/Jobs/Programing Sketches/Crusoe/main.lua",
+		"/D/Dropbox/Jobs/LuaLike/LuaLike.sublime-workspace",
+		"/D/Dropbox/Jobs/LuaLike/conf.lua",
+		"/D/Dropbox/Jobs/LuaLike/helpers.lua",
+		"/D/Dropbox/Jobs/LuaLike/LuaLike.sublime-project",
+		"/D/Dropbox/Jobs/LudumDare/Love2DTemplate/main.moon]",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/gunfire.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/novakid/unload.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/novakid/thenumber3.activeitem",
+		"/D/Dropbox/starbound ideas",
+		"/D/Downloads/Download.csv",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/protectorate/violiumbroadsword/violiumbroadsword.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/beamfire.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/hammer/hammersmash.weaponability",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/hammer/hammersmash.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/flipslash/flipslash.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/gun.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/flipslash/flipslash.weaponability",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/hylotl/sirensong.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/hylotl/sirensong.lua",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/portableshieldbarrier.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/guns/bullets/bullet-1/bullet-1.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/bramble/default.frames",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/bramble/bramble2.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/bramble/bramble.projectile",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/flipslash/default.frames",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/flipslash/physicalswoosh.png",
+		"/D/dev/Starbound/assets/packed/projectiles/explosions/weakexplosion/weakexplosion.config",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/portableshieldbarrier.frames",
+		"/D/dev/Starbound/assets/packed/projectiles/explosions/smokeexplosion/smokeexplosion.config",
+		"/D/dev/Starbound/assets/packed/projectiles/explosions/smoke/smoke.projectile",
+		"/D/dev/Starbound/assets/packed/damage/default.damage",
+		"/D/dev/Starbound/assets/packed/projectiles/explosions/paintexplosionpurple/paintexplosionpurple.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/explosions/smoke/smoke.config",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/apex/blacktruncheon.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/apex/blacktruncheon.animation",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/glitch/musket.animation",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/glitch/musketload.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/glitch/musket.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/other/electricrailgun/electricrailgun.animation",
+		"/D/dev/Starbound/assets/packed/projectiles/physics.config",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/brambleseed/brambleseed.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/bramble/bramble2.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/bramble/bramble.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/portableshieldexaust.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/portableshield.projectile",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/human/portableshield.thrownitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/human/thedefender.activeitem",
+		"/D/dev/Starbound/assets/packed/tilesets/packed/objects-by-type/physics.json",
+		"/D/dev/Starbound/assets/packed/projectiles/lavaprojectile/lavaprojectile.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/guns/bullets/revolverbullet/revolverbullet.projectile",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/novakid/durasteelassaultrifle.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/erchiusbeam/erchiusbeam.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/chargefire/chargefire.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/assaultrifle/commonassaultrifle.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/lance/lance.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/lance/lance.weaponability",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/flamethrower/flamethrower.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/guidedrocket/guidedrocket.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/stickyshot/stickyshot.weaponability",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/burstshot/burstshot.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/abilities/flashlight/flashlight.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/novakid/emptyclip.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/novakid/durasteelassaultrifle.png",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/novakid/tungstenmagnum.activeitem",
+		"/D/dev/Starbound/assets/packed/projectiles/guns/bullets/bouncybullet/bouncybullet.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/guns/bullets/piercingbullet/piercingbullet.projectile",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/novakid/durasteelrevolver.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/hammer/elementalaura/elementalaura.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/other/electrobaton/electrobaton.activeitem",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/staff/forcecage/forcecage.projectile",
+		"/D/dev/Starbound/assets/packed/stats/effects/paralysis/longParalysis.statuseffect",
+		"/D/dev/Starbound/assets/packed/stats/effects/paralysis/paralysis.statuseffect",
+		"/D/dev/Starbound/assets/packed/stats/effects/doomed/doomed.lua",
+		"/D/dev/Starbound/assets/packed/stats/effects/stun/stun.statuseffect",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/doomshot/doomshot.projectile",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/ranged/unrand/doomcannon/doomcannon.activeitem",
+		"/D/dev/Starbound/assets/packed/stats/effects/doomed/l6doomed.statuseffect",
+		"/D/dev/Starbound/assets/packed/stats/effects/frostslow/frostsnare.lua",
+		"/D/dev/Starbound/assets/packed/stats/effects/stun/stun.lua",
+		"/D/dev/Starbound/assets/packed/stats/effects/frostslow/frostslow.lua",
+		"/D/dev/Starbound/assets/packed/stats/effects/frostslow/frostslow.statuseffect",
+		"/D/dev/Starbound/assets/packed/stats/effects/dontstarve/dontstarve.lua",
+		"/D/dev/Starbound/assets/packed/stats/effects/dontstarve/dontstarve.statuseffect",
+		"/D/dev/ExOk/exok1/Assets/Shaders/RimLit.shader",
+		"/D/dev/ExOk/exok1/Assets/Shaders/ToonLit.shader",
+		"/D/dev/ExOk/exok1/Assets/Shaders/Wiggle.shader",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/default.frames",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/species/portableshield.frames",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/broadswordcombo.weaponability",
+		"/D/dev/Starbound/assets/packed/projectiles/throwable/glowbomb/glowbomb.projectile",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/staff/abilities/effectzone/forcecage.weaponability",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/staff/abilities/effectzone/effectzone.lua",
+		"/D/dev/Starbound/assets/packed/projectiles/throwable/firework2/firework2.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/throwable/glowgas/glowgas.projectile",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/protectorate/feroziumstaff/feroziumstaff.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/glitch/musketfire.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/kunaiblast/kunaiblast.weaponability",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/hylotl/theeel/sirensong.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/kunaiblast/kunaiblast.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/meleeweapon.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/hylotl/theeel/theeel.activeitem",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/astraltear/astraltear.weaponability",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/melee/abilities/broadsword/astraltear/astraltear.lua",
+		"/D/dev/Starbound/assets/packed/items/active/weapons/species/floran/seedgun.activeitem",
+		"/D/dev/Starbound/assets/packed/stats/effects/weakpoison/weakpoison.lua",
+		"/D/dev/Starbound/assets/packed/projectiles/explosions/bigboulderexplosion/bigboulderexplosion.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/explosions/bigboulderexplosion/bigboulderexplosion.frames",
+		"/D/dev/Starbound/assets/packed/projectiles/npcs/razorleaf/leafgust.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/throwable/firework3/firework3.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/bramble/bramble2.frames",
+		"/D/dev/Starbound/assets/packed/projectiles/throwable/thorngrenade/thorngrenade.projectile",
+		"/D/dev/Starbound/assets/packed/projectiles/activeitems/bramble/bramble.frames",
+		"/D/dev/Starbound/assets/packed/projectiles/guns/grenades/fruitthorn/fruitthorn.projectile"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"D:\\dev\\OutThereSomewhereFP",
+			"D:\\dev\\OutThereSomewhereFP\\bin\\level"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"moonscript",
+			"print",
+			"moons",
+			"parti",
+			"sets",
+			"state",
+			"partDamageArea",
+			"damag",
+			"groun",
+			"swo",
+			"fire",
+			"animatedParts",
+			"animationCustom",
+			"idle",
+			"wa",
+			"handle",
+			"black",
+			"muzz",
+			"0.45",
+			"0.35",
+			"8",
+			"3.0",
+			"0.2",
+			"grenade",
+			"durasteelassaultrifle",
+			"aim",
+			"aimVector",
+			"dire",
+			"angl",
+			"proj",
+			"angle",
+			"proje",
+			"currentAngle",
+			"timeAndAngle",
+			"newTimesAndAngles",
+			"projectileTimesAndAngles",
+			"EmptyClip",
+			"SirenSong",
+			"6",
+			"00",
+			"doom",
+			"elect",
+			"stat",
+			"shock",
+			"DIRECTIONAL",
+			"Diffuse",
+			"SV_Target",
+			"UNITY_FOG_COORDS",
+			"fogcoo",
+			"fogCoord",
+			"fog",
+			"_Wiggle",
+			"0.1",
+			"0.03",
+			"projectilet",
+			"],\n",
+			"KunaiBlast",
+			"GunFire",
+			"astral",
+			"}\n",
+			"80,",
+			"80",
+			"bramble",
+			"poisonbarrel",
+			"fruitthorn",
+			"projec",
+			"blade",
+			"blede",
+			"tran",
+			"transfo",
+			"blade",
+			"tran",
+			"baseWeaponRotation",
+			"trans",
+			"weapon",
+			"charges",
+			"handle",
+			"print",
+			"MeleeSlash",
+			"baseDps",
+			"inflictedh",
+			"dama",
+			"charge",
+			"fra",
+			"frame",
+			"animat",
+			"\"fire",
+			"5",
+			"arm",
+			"muzzle",
+			"fra",
+			"muzzl",
+			"animator",
+			"fullc",
+			"anima",
+			"light",
+			"idle",
+			"drawframe",
+			"anima",
+			"fram",
+			"wait",
+			"cooldown",
+			"elemental",
+			"proj",
+			"hamm",
+			"\\",
+			"GreatWave",
+			"greatwave",
+			"GreatWave",
+			"elec",
+			"png",
+			"defa",
+			"png",
+			"frames",
+			"ele",
+			"laun",
+			"glowstickblue",
+			"glowstickblueicon",
+			"glowstickblue",
+			"exmachina",
+			"sporegun",
+			"gristlegun",
+			"ironshortsword",
+			"cavebow",
+			"muzzl",
+			"titaniummachinepistol",
+			"two",
+			"twoHanded"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_Color",
+			"_Colorv",
+			",",
+			"TMS"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/scenes/mainMenu.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/scenes/gameScene.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/scenes/defeatScene.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/scenes/victoryScene.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/scenes/scene.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/conf.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								268
+							]
+						],
+						"settings":
+						{
+							"auto_name": "love.conf=(t)=>",
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/saint/AppData/Roaming/Sublime Text 3/Packages/User/Compile Moon and Run Love.sublime-build",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 237.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Compile Moon and Run Love.sublime-build",
+	"project": "fast.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
