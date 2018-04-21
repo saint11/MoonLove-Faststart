@@ -8,8 +8,8 @@ With that all set, open the ```Faststart.sublime-project``` file and select the 
 ## Here's how the folders are supposed to work:
 * **bin:** This is where the .exe or similar will be placed when you pack your game for distribution.
 * **game:** Lua files that Löve will use will be placed here by the compiler.
-** **game/assets:** Images, sound and other asset files shoud be placed here.
-** **game/lib:** External libs are placed here.
+ * **game/assets:** Images, sound and other asset files shoud be placed here.
+ * **game/lib:** External libs are placed here.
 * **src:** Moon files that will be compiled into Lua files by sublime.
 
 ## Usage
