@@ -90,7 +90,7 @@ export initFonts=->
 		monocons: lg.newFont("assets/fonts/monocons.ttf", 8)
 		pixelfraktur: lg.newFont("assets/fonts/pixelfraktur.ttf", 16)
 		vcr: lg.newFont("assets/fonts/vcrfont.ttf", 16)
-		handwriting: lg.newFont("assets/fonts/handwriting.ttf", 24);
+		handwriting: lg.newFont("assets/fonts/handwriting.ttf", 24)
 	}
 	for k,v in pairs(data.fonts)
 		v\setFilter("nearest","nearest")
